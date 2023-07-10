@@ -1,0 +1,1 @@
+import{C as t}from"./entry.df33e24a.js";const o=t("posts",{state:()=>({posts:[],selectedPost:[]}),getters:{doubleCount:s=>s.posts},actions:{changedPosts(s){this.posts=s},changeSelectedPost(s){this.selectedPost=s}}});export{o as u};
